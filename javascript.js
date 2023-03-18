@@ -88,14 +88,17 @@ function resetGame () {
 
 let computerScore = 0;
 let playerScore = 0;
-let guesses = 1
-let maxGuesses = 5
+// let guesses = 1
+// let maxGuesses = 5
 let resetButton
 
-let button = document.querySelector(".btn")
-let player = document.querySelector(".player")
-let computer = document.querySelector(".computer")
-let winner = document.querySelector(".winner")
-let playerChoice = document.querySelector(".textfield")
+// let button = document.querySelector(".btn")
+// let player = document.querySelector(".player")
+// let computer = document.querySelector(".computer")
+// let winner = document.querySelector(".winner")
+// let playerChoice = document.querySelector(".textfield")
 
-button.addEventListener("click", game)
+// button.addEventListener("click", game)
+
+let rock = document.querySelection(".rock")
+rock.addEventListener("click", game)
