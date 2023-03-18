@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: "bebasNeue";
+  src: url("assets/BebasNeue-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "bebasNeue", sans-serif;
+}
+
+.title {
+    display: flex;
+    font-size: 100px;
+    color: #212121;
+    justify-content: center;
+    background-color: #E7E7E7;
+}
+
+.main-text {
+    color: #E7E7E7;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    all: unset;
+    width: 200px;
+    height: 200px;
+    color: #E7E7E7;
+    cursor: pointer;
+    font-size: 30px;
+    background: rgba(255,255,255,0);
+    border: 5px solid #323232;
+    text-align: center;
+}
+
+.scores {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#reset {
+    width: 100%;
+}
+
+.resetButton {
+    all: unset;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: #E7E7E7;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgba(255,255,255,0);
+    border: 5px solid #323232;
+    margin: auto;
+}
